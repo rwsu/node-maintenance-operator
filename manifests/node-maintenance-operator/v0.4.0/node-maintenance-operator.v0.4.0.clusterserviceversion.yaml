@@ -171,3 +171,4 @@ spec:
       alm-owner-kubevirt: nodemaintenanceoperator
       operated-by: nodemaintenanceoperator
   version: 0.4.0
+  replaces: node-maintenance-operator.v0.3.0
