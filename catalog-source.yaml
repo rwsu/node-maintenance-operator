@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: opm-generated-index-image
+  namespace: openshift-marketplace
+spec:
+  sourceType: grpc
+  image: quay.io/rwsu/my-index:1.0.0
